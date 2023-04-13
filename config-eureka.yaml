@@ -3,5 +3,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     serviceUrl:
-      #defaultZone: http://eureka:password@discovery-server:8761/eureka # for Docker
-       defaultZone: http://eureka:password@localhost:8761/eureka #for IDEA
+       defaultZone: http://eureka:password@discovery-server:8761/eureka # for Docker
